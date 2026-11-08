@@ -1,0 +1,22 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "knitform",
+  "displayName": "KNITFORM",
+  "version": "1.0.0",
+  "description": "KNITFORM 공식 플러그인. 대바늘·코바늘 뜨개 도안 데이터 조회 및 패턴 스튜디오 연동을 지원합니다.",
+  "author": {
+    "name": "DELIGH",
+    "url": "https://deligh-it.app"
+  },
+  "homepage": "https://knitform.deligh-it.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Deligh-it/knitform-antigravity"
+  },
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "KNITFORM MCP 연결 상태를 확인해줘",
+    "KNITFORM 도안 데이터 조회를 도와줘",
+    "대바늘·코바늘 기호 차트 도안 정리를 도와줘"
+  ]
+}
