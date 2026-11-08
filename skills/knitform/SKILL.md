@@ -1,16 +1,17 @@
 ---
 name: knitform
-description: KNITFORM(대바늘·코바늘 뜨개 도안 및 패턴 스튜디오)의 원격 MCP 엔드포인트 연동 가이드.
+description: KNITFORM(대바늘·코바늘 뜨개 도안 및 패턴 스튜디오)의 원격 MCP 엔드포인트 연동 및 뜨개 기호(list_stitches) 조회 가이드.
 ---
 
 # KNITFORM Antigravity Skill
 
 KNITFORM은 대바늘·코바늘 도안을 웹 브라우저에서 설계하고 편집할 수 있는 뜨개 도안 제작 도구(Pattern Studio)입니다.
-이 스킬은 Antigravity 에이전트가 원격 MCP 엔드포인트(`https://knitform.deligh-it.app/mcp`)와 통신하여 사용자의 도안 작업을 보조할 수 있도록 안내합니다.
+이 스킬은 Antigravity 에이전트가 원격 MCP 엔드포인트(`https://knitform.deligh-it.app/mcp`)와 통신하여 뜨개 기호(stitches)를 조회하고 도안 작업을 보조할 수 있도록 안내합니다.
 
-## 지원 범위
+## 지원 도구 및 기능
 
 - **원격 MCP 연동**: Streamable HTTP 프로토콜 및 OAuth 2.1 Dynamic Client Registration(DCR)을 통한 안전한 연결
+- **뜨개 기호 조회 (`list_stitches`)**: 대바늘 및 코바늘에서 지원하는 뜨개 기호 및 상세 속성 목록을 조회합니다.
 - **도안 데이터 조회**: KNITFORM MCP 엔드포인트를 통해 제공되는 도안 데이터 조회 (`mcp:read` 스코프)
 - **차트 및 표기 지원**: KNITFORM의 표준 SVG 기호 및 뜨개 표기 규칙 준수
 
